@@ -36,7 +36,8 @@ jobs:
     - name: Build Docker image and push
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: telukuntla2022/naga:naga_messageService
+        image: telukuntla2022/naga
+        tags: naga_messageService
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
