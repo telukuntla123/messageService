@@ -38,5 +38,6 @@ jobs:
       with:
         image: telukuntla2022/naga
         registry: docker.io
+        tag: testImage
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
