@@ -1,7 +1,7 @@
 #FROM openjdk:8-jdk-alpine
 FROM adoptopenjdk/openjdk11:alpine-jre
 
-ARG JAR_FILE= target/messageService-0.0.1-SNAPSHOT.jar
+ARG JAR_FILE= /target/messageService-0.0.1-SNAPSHOT.jar
 
 #===============================
 EXPOSE 8080
