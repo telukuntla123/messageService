@@ -36,7 +36,7 @@ jobs:
     - name: Build Docker image and push
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
-        image: telukuntla2022/naga
+        image: telukuntla2022/nagapub
         registry: docker.io
         tag: testImage
         username: ${{ secrets.DOCKER_USERNAME }}
